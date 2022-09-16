@@ -12,32 +12,7 @@ export class AppComponent {
 
   imageParent: string = '';
 
-  products: Product[] = [
-    {
-      id: '1',
-      name: 'Product 1',
-      image: 'https://picsum.photos/id/237/200/300',
-      price: 100,
-    },
-    {
-      id: '2',
-      name: 'Product 2',
-      image: 'https://picsum.photos/id/237/200/300',
-      price: 100,
-    },
-    {
-      id: '3',
-      name: 'Product 3',
-      image: 'https://picsum.photos/id/237/200/300',
-      price: 100,
-    },
-    {
-      id: '4',
-      name: 'Product 4',
-      image: 'https://picsum.photos/id/237/200/300',
-      price: 100,
-    },
-  ];
+  
 
   showImg = true;
 

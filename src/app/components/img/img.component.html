@@ -1,13 +1,12 @@
 <img
-  width="200"
   (load)="imgLoad()"
   (error)="imgError()"
   [src]="img"
   alt="texto alternativo"
   *ngIf="img; else elseImg"
 />
-<h3>{{ counter }}</h3>
+<!-- <h3>{{ counter }}</h3> -->
 
 <ng-template #elseImg>
-  <img width="200" height="200" [src]="imageDefault" alt="" />
+  <img [src]="imageDefault" alt="" />
 </ng-template>

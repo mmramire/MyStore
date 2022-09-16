@@ -1,16 +1,17 @@
-<p><input type="text" [(ngModel)]="imageParent" /></p>
+<!-- <p><input type="text" [(ngModel)]="imageParent" /></p>
 
 <button (click)="toggleImg()">Toggle Img</button>
 <p>{{ showImg }}</p>
 
 <app-img
-  *ngIf="showImg"
+  //*ngIf="showImg"
   (loaded)="onLoaded($event)"
   [img]="imageParent"
-></app-img>
+></app-img> -->
+<app-nav></app-nav>
+<app-products></app-products>
 
-<app-product [product]="product" *ngFor="let product of products"></app-product>
-
+<!--
 <br />
 <main class="container">
   <div class="text-center">
@@ -72,4 +73,4 @@
       <button class="btn btn-outline-secondary" type="reset">Clear form</button>
     </div>
   </form>
-</main>
+</main> -->
